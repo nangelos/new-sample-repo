@@ -1,10 +1,11 @@
 console.log('This thing is working');
 
-let total = 0;
+let sum = 0;
 const add = (num1, num2) => {
-  total = num1 + num2;
-  console.log(total);
-  return total;
+  sum = num1 + num2;
+  console.log('matt was here');
+  console.log(sum);
+  return sum;
 };
 
 add(3, 4);
